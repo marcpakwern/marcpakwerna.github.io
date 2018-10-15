@@ -1,0 +1,47 @@
+.flex-fill {
+   flex:1
+}
+.navbar-fixed-top {
+  margin-top:60px;
+}
+
+
+
+.navbar-brand {
+  left:calc(50% - 45px);
+  position: absolute;
+  padding:0;
+  top:-30px;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: #393848;
+	border:#888 solid 1px;
+}
+.rounded-circle{
+	 width:160px;
+	 height:160px;
+	 margin-bottom:20px;
+	z-index:20;
+	
+	
+ }
+.circular-logo img{
+	 width:160px;
+	 height:160px;
+	 margin-top:10px;
+	z-index:20;
+	position:relative;
+	
+ }
+.navbar {
+  list-style-type: none;
+  /* this is what will keep the navbar from stretching */
+  max-height: 90px;
+  /* overflow: hidden; */
+}
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
